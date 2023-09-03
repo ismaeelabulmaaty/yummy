@@ -1,0 +1,88 @@
+ body{
+    background-color: #0D0D0D;
+    color: #f9f6f6 ;
+    overflow: hidden;
+}
+
+.nav-tab{
+    background-color: #0D0D0D;
+}
+
+.logo{
+    width: 50px;
+}
+
+i{
+    cursor: pointer;
+}
+
+.meal-layer{
+    width: 100%;
+    height: 100%;
+    background-color: #f9f6f6ca;
+    top: 100%;
+    transition: .5s;
+}
+
+.meal:hover .meal-layer{
+    top: 0;
+}  
+
+
+.links ul li{
+    cursor: pointer;
+}
+
+.options{
+    position: fixed;
+    top: 0;
+    left:-208px;
+    z-index: 10;
+    height: 100vh;
+   
+}
+.links ul li{
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    list-style: none;
+    /* display: none; */
+}
+.loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    background-color:#0D0D0D
+   
+}
+.loading div{
+display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+} 
+input{
+    background-color: transparent;
+    color: #fff;
+}
+.search-input{
+    display: none;
+}
+.form{
+    height: 100vh;
+    display: none;
+}
+.semoon{
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+ .container{
+    width: 80%;
+    margin-left:70px ;
+    padding-left: 30px;
+ }
+}
